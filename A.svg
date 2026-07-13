@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="500" viewBox="0 0 400 500">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#050a10"/><stop offset="100%" stop-color="#020408"/></linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#00ffc8" stop-opacity=".15"/><stop offset="100%" stop-color="#00ffc8" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg)" rx="12"/>
+  <rect x="4" y="4" width="392" height="492" fill="none" stroke="#00ffc8" stroke-opacity=".08" rx="10" stroke-width="1"/>
+  <rect x="8" y="8" width="384" height="484" fill="none" stroke="#00ffc8" stroke-opacity=".04" rx="8" stroke-width=".5"/>
+  <rect x="20" y="30" width="360" height="370" fill="none" stroke="#00ffc8" stroke-opacity=".12" rx="6" stroke-width="1"/>
+  <rect x="20" y="30" width="360" height="370" fill="url(#glow)" rx="6"/>
+  <!-- Head silhouette -->
+  <ellipse cx="200" cy="140" rx="60" ry="72" fill="#00ffc8" opacity=".06"/>
+  <ellipse cx="200" cy="140" rx="45" ry="55" fill="#00ffc8" opacity=".08"/>
+  <!-- Shoulders -->
+  <path d="M130 300 C130 350,270 350,270 300" fill="#00ffc8" opacity=".04"/>
+  <path d="M100 350 C100 400,300 400,300 350" fill="none" stroke="#00ffc8" stroke-opacity=".06" stroke-width="1"/>
+  <!-- Subject letter -->
+  <text x="200" y="240" text-anchor="middle" font-family="monospace" font-size="120" font-weight="bold" fill="#00ffc8" opacity=".5">A</text>
+  <text x="200" y="240" text-anchor="middle" font-family="monospace" font-size="120" font-weight="bold" fill="#00ffc8" opacity=".15" dx="2" dy="2"/>
+  <text x="200" y="240" text-anchor="middle" font-family="monospace" font-size="120" font-weight="bold" fill="none" stroke="#00ffc8" stroke-opacity=".08" stroke-width="2"/>
+  <!-- Grid dots -->
+  <g fill="#00ffc8" opacity=".04">
+    <circle cx="40" cy="50" r="1"/><circle cx="80" cy="50" r="1"/><circle cx="120" cy="50" r="1"/>
+    <circle cx="160" cy="50" r="1"/><circle cx="200" cy="50" r="1"/><circle cx="240" cy="50" r="1"/>
+    <circle cx="280" cy="50" r="1"/><circle cx="320" cy="50" r="1"/><circle cx="360" cy="50" r="1"/>
+    <circle cx="40" cy="100" r="1"/><circle cx="360" cy="100" r="1"/>
+    <circle cx="40" cy="150" r="1"/><circle cx="360" cy="150" r="1"/>
+    <circle cx="40" cy="200" r="1"/><circle cx="360" cy="200" r="1"/>
+    <circle cx="40" cy="250" r="1"/><circle cx="360" cy="250" r="1"/>
+    <circle cx="40" cy="300" r="1"/><circle cx="360" cy="300" r="1"/>
+    <circle cx="40" cy="350" r="1"/><circle cx="360" cy="350" r="1"/>
+    <circle cx="40" cy="400" r="1"/><circle cx="360" cy="400" r="1"/>
+  </g>
+  <!-- Label -->
+  <text x="200" y="440" text-anchor="middle" font-family="monospace" font-size="16" font-weight="bold" fill="#00ffc8" opacity=".6" letter-spacing="8">SUBJECT</text>
+  <text x="200" y="466" text-anchor="middle" font-family="monospace" font-size="11" fill="#00ffc8" opacity=".15" letter-spacing="6">A00 — CLASSIFIED</text>
+  <!-- Hash lines -->
+  <line x1="30" y1="480" x2="370" y2="480" stroke="#00ffc8" stroke-opacity=".04" stroke-width=".5"/>
+  <text x="30" y="493" font-family="monospace" font-size="5" fill="#00ffc8" opacity=".05">FBI-DB://A00/SUBJECT_A</text>
+  <text x="370" y="493" font-family="monospace" font-size="5" fill="#00ffc8" opacity=".05" text-anchor="end">0x7F4A</text>
+</svg>
